@@ -8,6 +8,7 @@ export const auth = betterAuth({
     provider: "pg", // or "pg" or "mysql"
     usePlural: true,
   }),
+
   user: {
     modelName: "usersTable",
   },
